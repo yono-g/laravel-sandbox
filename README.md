@@ -20,7 +20,7 @@ docker-compose exec app php artisan key:generate
 docker-compose exec --user postgres db createdb sandbox
 docker-compose exec app php artisan migrate
 
-open localhost
+open http://localhost
 ```
 
 ## コンテナの使用例
